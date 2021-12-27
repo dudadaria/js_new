@@ -17,4 +17,5 @@ const smallestDivisor = (num) => {
   return subFn(num, 2);
 };
 
+
 console.log(smallestDivisor(15))
