@@ -2,13 +2,16 @@ const smallestDivisor = (num) => {
   if (num < 1) {
     return NaN
   }
-  let result = 2;
-  while (resulte >= n) {
-    if (num % n !== 0) {
-    }
-    return n;
+  if (num === 1) {
+    return 1;
   }
-}
+
+  let min = 2;
+  while (num % min !== 0) {
+    min = min + 1;
+  }
+    return min
+  }
 
 
-console.log(smallestDivisor(15))
+console.log(smallestDivisor(50))
