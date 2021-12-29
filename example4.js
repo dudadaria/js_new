@@ -1,10 +1,5 @@
 const firstSymbol = (str) => {
-  let i=0;
-  let result='';
-  while(i<str.leught){
-    result=result+str[i];
-  }
-  return `${result}!`;
+    return `${str[0]}!`;
 };
 
-console.log(firstSymbol(cat))
+console.log(firstSymbol("Alex"))
