@@ -4,5 +4,4 @@ const solution =(n)=>{
   }
   return (n*square(n))/ 4
 }
-
 console.log(solution(2))
